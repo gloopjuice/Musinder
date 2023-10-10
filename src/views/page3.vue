@@ -1,14 +1,14 @@
 <template>
 <Navbar/>
-tris
+<ViewingArea/>
 </template>
 <script>
 import Navbar from '../components/Navbar.vue';
-
-export default{
-   components:{
-       Navbar
-   }
+import ViewingArea from '../components/ViewingArea.vue';
+export default {
+components: {
+  Navbar, ViewingArea
+}
 }
 </script>
 <style scoped></style>
