@@ -107,7 +107,7 @@ export default {
 }
 .userImage {
 
-  background:;
+
   position: relative;
 
 }

@@ -4,10 +4,10 @@ import LoginPage from '../views/LoginPage.vue'
 import HomePage from '../views/HomePage.vue' 
 import AppHomePage from '../views/AppHomePage.vue'
 
-import page1 from '../views/page1.vue'
-import page2 from '../views/page2.vue'
-import page3 from '../views/page3.vue'
-import page4 from '../views/page4.vue'
+import Swipearea from '../views/Swipearea.vue'
+import Chatarea from '../views/Chatarea.vue'
+import Profile from '../views/Profile.vue'
+import Settings from '../views/Settings.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -34,24 +34,24 @@ const router = createRouter({
       component: AppHomePage
     },
     {
-      path: '/page1',
-      name: "page1",
-      component: page1
+      path: '/Swipearea',
+      name: "Swipearea",
+      component: Swipearea
     },
     {
-      path: '/page2',
-      name: "page2",
-      component: page2
+      path: '/Chatarea',
+      name: "Chatarea",
+      component: Chatarea
     },
     {
-      path: '/page3',
-      name: "page3",
-      component: page3
+      path: '/Profile',
+      name: "Profile",
+      component: Profile
     },
     {
-      path: '/page4',
-      name: "page4",
-      component: page4
+      path: '/Settings',
+      name: "Settings",
+      component: Settings
     },
   ]
 })
