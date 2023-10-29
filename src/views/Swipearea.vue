@@ -23,8 +23,9 @@
               Pārsteidz mani
             </div>
 
-            <div class="yesnobuttons">
-              <!-- Add your buttons here -->
+            <div class="yesno">
+              <button class="yesnobuttons">yes</button>
+              <button class="yesnobuttons">no</button>
             </div>
 
           </div>
@@ -63,6 +64,16 @@ export default {
   position: relative;
 
 }
+.yesnobuttons
+{
+  margin-right: 5rem;
+  width: 5rem;
+  height: 5rem;
+}
+.yesnobuttons:first-child
+{
+  margin-left: 5rem;
+}
 .username
 {
   width: 14.75rem;
@@ -77,6 +88,7 @@ export default {
   line-height: 130%;
 
 }
+
 .vecums
 {
   width: 22.75rem;
@@ -118,17 +130,16 @@ export default {
 }
 .content-container {
   display: flex;
-  align-items: flex-start;
-  
+  align-items: flex-start; 
 }
 
 .left-column {
   flex: 1;
+  margin-left: 2rem;
+  margin-top: 2rem;
 }
 
 .right-column {
   flex: 0;
-  
-
 }
 </style>
