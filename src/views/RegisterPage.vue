@@ -24,7 +24,7 @@ export default{
 .registerlauki
 {
     display: flex;
-    width: 1112px;
+    width: 300px;
     align-items: center;
     border-radius: 20px;
     border: 2px solid rgba(0, 0, 0, 0.06);

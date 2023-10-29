@@ -5,7 +5,7 @@
         <input type="text" id="fname" name="fname" class="loginlauki"><br><br>
         <label for="lname" class = "loginlaukiname">Enter password:</label>
         <input type="text" id="lname" name="lname" class="loginlauki"><br><br>
-        <form action="/apphomepage">
+        <form action="/Swipearea">
             <input type="submit" value="Log in!" class="pagepoga">
         </form>
 
@@ -27,7 +27,7 @@ export default{
 .loginlauki
 {
     display: flex;
-    width: 1112px;
+    width: 300px;
     align-items: center;
     border-radius: 20px;
     border: 2px solid rgba(0, 0, 0, 0.06);

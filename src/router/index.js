@@ -9,6 +9,8 @@ import Chatarea from '../views/Chatarea.vue'
 import Profile from '../views/Profile.vue'
 import Settings from '../views/Settings.vue'
 
+import Sarakste from '../views/Sarakste.vue'
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: 
@@ -52,6 +54,11 @@ const router = createRouter({
       path: '/Settings',
       name: "Settings",
       component: Settings
+    },
+    {
+      path: '/Sarakste',
+      name: "Sarakste",
+      component: Sarakste
     },
   ]
 })
